@@ -1,0 +1,58 @@
+*{
+   margin:0;
+   Padding:0;
+   box-sizing: border-box;
+}
+
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+
+.papge1 {
+   background-color: aqua;
+   height: 100vh;
+   width: 100vw;
+}
+
+
+
+.papge2 {
+   background-color: blueviolet;
+   height: 100vh;
+   width: 100vw;  
+}
+
+.papge2 img{
+   height: 100vh;
+   width: 20%;
+   object-fit: cover;
+   object-position: center;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+.page3 {
+   display: flex;
+   background-color: burlywood;
+   height: 100vh;
+   width: 100vw;   
+   text-transform: uppercase;
+   font-size: 20vw;
+   overflow-x: hidden;
+}
+
+
+
+
+
+.papge4 {
+   background-color: rgb(255, 0, 0);
+   height: 100vh;
+   width: 100vw;
+}  
+
+

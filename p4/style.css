@@ -1,0 +1,55 @@
+*{
+   margin:0;
+   Padding:0;
+   box-sizing: border-box;
+}
+
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+
+.main{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image{
+    height: 30vw;
+    width: 60vw;
+    background-color: aqua;
+    position: relative;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(22, 123, 123, 0.712);
+}
+
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: lightblue;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    z-index: 9;
+}

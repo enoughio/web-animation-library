@@ -1,0 +1,49 @@
+*{
+   margin:0;
+   Padding:0;
+   box-sizing: border-box;
+   background-color: black;
+   color: white;
+   text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+.main{
+    padding: 5vh 10vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav div{
+    display: flex;
+    gap: 5rem;
+}
+
+.data h1{
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.1;
+    /* background-color: aqua;  */
+    width: 80%;
+    margin: auto;
+
+}
+
+.data h1:nth-child(1){
+    margin-top: 15vh;
+}
+.data h1:nth-child(2){
+    text-align: center;
+}
+.data h1:nth-child(3){
+    text-align: center;
+}
